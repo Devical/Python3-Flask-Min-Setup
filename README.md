@@ -125,10 +125,20 @@ source app/__init__.py
 For everyone else, let's keep going.
 
 <h2>Make Apache and Mod_WSGI Work Together</h2>
-Create new vhosts.conf file. Check repository for file with code.
+<blockquote>See these files in the repository</blockquote>
+Tell your local machine that if you type in 'yourprojectname.dev' into the address bar, look for something other than external website.
+```cli
+sudo vim /etc/hosts
+```
+Create new vhosts.conf file. It points to the .wsgi file.
 ```cli
 sudo vim /etc/httpd/conf.d/vhosts.conf
 ```
+The .wsgi file is basically a front controller for Python.
+```cli
+vim yourprojectname.wsgi
+```
+
 
 
 
