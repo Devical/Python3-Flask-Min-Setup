@@ -5,7 +5,6 @@ import site
 import sys
 
 # Define Paths
-# base = /path/to/yoursite/venv
 base = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if sys.platform == 'win32':
     site_packages = os.path.join(base, 'Lib', 'site-packages')
