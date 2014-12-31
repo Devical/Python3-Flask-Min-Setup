@@ -1,0 +1,6 @@
+127.0.0.1   localhost.localdomain localhost
+::1     localhost6.localdomain6 localhost6
+
+# Add these lines below to your current /etc/hosts file
+127.0.0.1   dev
+127.0.0.1   yourpojectname.dev
