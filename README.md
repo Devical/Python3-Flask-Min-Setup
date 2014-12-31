@@ -142,6 +142,12 @@ Jump into your venv/bin/ folder and add activate_this.py. This file is not with 
 ```cli
 vim venv/bin/activate_this.py
 ```
+<h2>Clean-Up and Launch</h2>
+Couldn't get much simpler. Restart your Apache.
+```cli
+sudo service httpd restart
+```
+Then go to your browser and check out yourprojectname.dev
 
 
 
