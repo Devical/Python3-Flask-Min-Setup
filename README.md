@@ -138,7 +138,10 @@ The .wsgi file is basically a front controller for Python.
 ```cli
 vim yourprojectname.wsgi
 ```
-
+Jump into your venv/bin/ folder and add activate_this.py. This file is not with Python3 (pyvenv-3.4). You must create this file.
+```cli
+vim venv/bin/activate_this.py
+```
 
 
 
